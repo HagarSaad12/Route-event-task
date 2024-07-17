@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Transactions</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 class="text-center py-5 h2">Customer Transactions</h1>
+    <div class="container shadow mx-auto p-5">
+        <div class="row">
+                 <div class="col-lg-6">
+                    <div class="item">
+                        <input type="text" class="form-control w-75 mb-5 mx-auto" placeholder="Search by Name or Amount"/>
+                         
+                        <div
+                            class="table-responsive"
+                        >
+                            <table
+                                class="table text-center"
+                            >
+                                <thead class="table-light">
+                                    <tr class="active">
+                                        <th class="text-center">Customer ID</th>
+                                        <th class="text-center">Customer Name</th>
+                                        <th class="text-center">Transaction Number</th>
+                                        <th class="text-center">Transaction Date</th>
+                                        <th class="text-center">Amount</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                     
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                    </div>
+                 </div>
+             
+            <div class="col-md-6">
+                <div class="item">
+                    <div class="py-5">
+                        <canvas id="myChart" width="400" height="400"></canvas>
+                    </div>
+                </div>
+            </div>
+           <div class="col-lg-6">
+            <div class="item">
+                <div class="py-5">
+                    <canvas id="myChart2" width="200px" height="200px"></canvas>
+                </div>
+            </div>
+           </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script type="module" src="js/script.js"></script>
+</body>
+</html>

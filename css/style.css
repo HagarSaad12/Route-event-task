@@ -1,0 +1,10 @@
+.active{
+    transition: background-color 1s;
+    cursor: pointer;
+    
+}
+ 
+
+tr{
+    cursor: pointer;
+}
